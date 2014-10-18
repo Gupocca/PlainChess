@@ -15,19 +15,19 @@ body {
   -webkit-box-sizing: border-box;
   -o-box-sizing: border-box;
   -ie-box-sizing: border-box;
-  box-shadow: 0 -10px 10px 10px #000000;
-  -moz-box-shadow: 0 -10px 10px 10px #000000;
-  -webkit-box-shadow: 0 -10px 10px 10px #000000;
-  -o-box-shadow: 0 -10px 10px 10px #000000;
-  -ie-box-shadow: 0 -10px 10px 10px #000000;
+  box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+  -o-box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+  -ie-box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
 }
 #header a {
-  color: inherit;
+  color: rgba(255, 255, 255, 0.8);
   text-decoration: none;
 }
 #header a:hover,
 #header a.active {
-  color: #999;
+  color: white;
   text-decoration: underline;
 }
 /* Headline */
@@ -39,7 +39,6 @@ h1 {
   font-size: 36pt;
   font-weight: bold;
   text-align: right;
-  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 h1 a {
   text-decoration: none;
@@ -213,11 +212,6 @@ tr:last-child > th {
   -webkit-border-radius: 10px;
   -o-border-radius: 10px;
   -ie-border-radius: 10px;
-  box-shadow: inset 0 0 5px #000000;
-  -moz-box-shadow: inset 0 0 5px #000000;
-  -webkit-box-shadow: inset 0 0 5px #000000;
-  -o-box-shadow: inset 0 0 5px #000000;
-  -ie-box-shadow: inset 0 0 5px #000000;
 }
 #board td {
   width: 60px;
@@ -347,18 +341,13 @@ tr:last-child > th {
   position: absolute;
   width: 540px;
   height: 540px;
-  color: #ccc;
+  color: #ebc17a;
   background-color: #5a4232;
   border-radius: 20px;
   -moz-border-radius: 20px;
   -webkit-border-radius: 20px;
   -o-border-radius: 20px;
   -ie-border-radius: 20px;
-  box-shadow: 0 0 10px #000000;
-  -moz-box-shadow: 0 0 10px #000000;
-  -webkit-box-shadow: 0 0 10px #000000;
-  -o-box-shadow: 0 0 10px #000000;
-  -ie-box-shadow: 0 0 10px #000000;
 }
 #info > p {
   width: 480px;
