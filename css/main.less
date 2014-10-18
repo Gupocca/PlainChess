@@ -1,4 +1,5 @@
 @import "mixins";
+@import "variables";
 
 /* Layout */
 
@@ -13,9 +14,8 @@ body {
 	line-height: 20px;
 	width: 100%;
 	padding: 5px 30px;
-	background-color: #5a4232;
+	background-color: @status-background;
 	color: #ccc;
-	
 	.box-sizing;
 	.box-shadow(0 -10px 10px 10px #000);
 }
@@ -36,7 +36,7 @@ h1 {
 	width: 100%;
 	position: absolute;
 	top: -58px;
-	color: #342217;
+	color: @border-accent;
 	font-size: 36pt;
 	font-weight: bold;
 	text-align: right;
@@ -49,7 +49,7 @@ h1 a {
 }
 
 .light {
-	color: #793e12;
+	color: @dark-tile;
 	font-weight: lighter;
 }
 
@@ -111,7 +111,7 @@ h1 a {
 	left: -120px;
 	height: 540px;
 	width: 780px;
-	border: 30px solid #342217;
+	border: 30px solid @border-accent;
 	background: url("../img/bgTile.png") bottom left repeat;
 	
 	.border-radius(20px);
@@ -160,7 +160,7 @@ h1 a {
 }
 
 #faq a {
-	color: #342217;
+	color: @border-accent;
 	text-decoration: underline;
 }
 
@@ -176,7 +176,7 @@ h1 a {
 	position: absolute;
 	width: inherit;
 	height: inherit;
-	background-color: #342217;
+	background-color: @border-accent;
 	
 	.border-radius(20px);
 }
@@ -221,12 +221,12 @@ tr:last-child > th {
 	height: 60px;
 	text-align: center;
 	vertical-align: middle;
-	background-color: #793e12;
+	background-color: @dark-tile;
 	.border-radius(5px);
 }
 
 #board tr:nth-child(odd) > td:nth-child(odd), #board tr:nth-child(even) > td:nth-child(even) {
-	background-color: #d19a53; /* #986534 */
+	background-color: @light-tile;
 }
 
 #board tr:first-child > td:first-child {
@@ -353,7 +353,7 @@ tr:last-child > th {
 	width: 540px;
 	height: 540px;
 	color: #ccc;
-	background-color: #5a4232;
+	background-color: @status-background;
 	.border-radius(20px);
 	.box-shadow(0 0 10px #000);
 }
@@ -426,7 +426,7 @@ tr:last-child > th {
 }
 
 .promotion > ul {
-	background-color: #5a4232;
+	background-color: @status-background;
 	width: 240px;
 	height: 60px;
 	.border-radius(15px)
@@ -514,7 +514,7 @@ tr:last-child > th {
 .stripe > h2 {
 	font-size: 28pt;
 	font-weight: normal;
-	color: #342217;
+	color: @border-accent;
 	position: absolute;
 	left: 147px;
 	top: 27px;
@@ -533,7 +533,7 @@ tr:last-child > th {
 
 .menu input {
 	border: 0; 
-	background-color: #5a4232;
+	background-color: @status-background;
 	padding: 4px;
 	font-size: 14pt;
 	color: #999;

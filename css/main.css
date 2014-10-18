@@ -234,7 +234,6 @@ tr:last-child > th {
 #board tr:nth-child(odd) > td:nth-child(odd),
 #board tr:nth-child(even) > td:nth-child(even) {
   background-color: #d19a53;
-  /* #986534 */
 }
 #board tr:first-child > td:first-child {
   border-top-left-radius: 10px;
