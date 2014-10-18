@@ -108,11 +108,6 @@ h1 a {
   -webkit-border-radius: 20px;
   -o-border-radius: 20px;
   -ie-border-radius: 20px;
-  box-shadow: 0 0 10px #000000;
-  -moz-box-shadow: 0 0 10px #000000;
-  -webkit-box-shadow: 0 0 10px #000000;
-  -o-box-shadow: 0 0 10px #000000;
-  -ie-box-shadow: 0 0 10px #000000;
   border-box: border-box;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
