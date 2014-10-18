@@ -45,7 +45,7 @@ h1 a {
   color: inherit;
 }
 .light {
-  color: #793e12;
+  color: #7a3e1f;
   font-weight: lighter;
 }
 #main a {
@@ -213,7 +213,7 @@ tr:last-child > th {
   height: 60px;
   text-align: center;
   vertical-align: middle;
-  background-color: #793e12;
+  background-color: #7a3e1f;
   border-radius: 5px;
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
@@ -222,7 +222,7 @@ tr:last-child > th {
 }
 #board tr:nth-child(odd) > td:nth-child(odd),
 #board tr:nth-child(even) > td:nth-child(even) {
-  background-color: #d19a53;
+  background-color: #dfbf98;
 }
 #board tr:first-child > td:first-child {
   border-top-left-radius: 10px;
